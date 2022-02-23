@@ -35,6 +35,7 @@
     {
       "name": "kris-jusiak",
       "url": "https://boost-ext.github.io/ut/",
+      "git": "https://github.com/boost-ext/ut.git",
       "license": "Boost Software License 1.0"
     }
   ],
