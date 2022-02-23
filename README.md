@@ -1,5 +1,7 @@
 # A source library xPack with Boost ut
 
+Note: this project is work in progress.
+
 This project provides the **Boost ut** source libraries as an xPack dependency.
 
 The project is hosted on GitHub as
