@@ -1,0 +1,15 @@
+.github/
+.vscode/
+build/
+ci/
+docs/
+test*/
+example/
+benchmark/
+
+.clang-*
+.cmake-format
+CONTRIBUTING**
+README-MAINTAINER*.md
+
+*.tgz
