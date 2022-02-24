@@ -6,6 +6,7 @@ docs/
 test*/
 example/
 benchmark/
+cmake/
 
 .clang-*
 .cmake-format

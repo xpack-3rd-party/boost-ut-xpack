@@ -106,7 +106,6 @@ The header files can then be included in user projects with statements like:
 
 - none
 
-
 #### Preprocessor definitions
 
 There are several proprocessor definitions used to configure the build.
@@ -166,7 +165,7 @@ exe = executable(
   your-target,
 
   dependencies: [
-    xpack-3rd-party-boost-ut_dependency,
+    xpack_3rd_party_boost_ut_dependency,
   ],
 )
 ```
@@ -185,7 +184,13 @@ presented below and is also available in
 int
 main ([[maybe_unused]] int argc, [[maybe_unused]] char* argv[])
 {
-  return 0;
+  using namespace boost::ut;
+
+  "something"_test = [] {
+    expect(compute_one() == 1_i);
+    expect(strcmp(compute_aaa(), "aaa") == 0);
+    expect(compute_condition());
+  };
 }
 ```
 
