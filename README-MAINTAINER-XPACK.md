@@ -50,12 +50,12 @@ CppStyle plug-in.
 - commit all changes
 - update versions in `README-MAINTAINER-XPACK.md`
 - update `CHANGELOG-XPACK.md`
-- commit with a message like _prepare v1.1.8-1_
+- commit with a message like _prepare v1.1.8-2_
 - `npm pack` and check the content of the archive, which should list
   only `package.json`, `README.md`, `LICENSE`, `CHANGELOG-XPACK.md`,
   the sources and CMake/meson files;
   possibly adjust `.npmignore`
-- `npm version v1.1.8-1`
+- `npm version v1.1.8-2`
 - push the `xpack-develop` branch to GitHub
 - the `postversion` npm script should also update tags via `git push origin --tags`
 - wait for the CI job to complete
@@ -99,5 +99,5 @@ When the package is considered stable:
 When the release is considered stable, promote it as `latest`:
 
 - `npm dist-tag ls @xpack-3rd-party/boost-ut`
-- `npm dist-tag add @xpack-3rd-party/boost-ut@1.1.8-1 latest`
+- `npm dist-tag add @xpack-3rd-party/boost-ut@1.1.8-2 latest`
 - `npm dist-tag ls @@xpack-3rd-party/boost-ut`

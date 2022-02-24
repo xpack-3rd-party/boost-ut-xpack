@@ -8,6 +8,7 @@ and close existing issues and pull requests.
 
 ## 2022-02-24
 
+- v1.1.8-2
 - v1.1.8-1
 - add initial content
 
