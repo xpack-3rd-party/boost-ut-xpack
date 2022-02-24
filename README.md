@@ -1,4 +1,4 @@
-# A source library xPack with Boost ut
+# A source library xPack with Boost ut / μ(micro)/Unit Testing Framework
 
 This project provides the **Boost ut** source libraries as an xPack dependency.
 
