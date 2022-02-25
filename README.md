@@ -5,6 +5,9 @@ This project provides the **Boost ut** source libraries as an xPack dependency.
 The project is hosted on GitHub as
 [xpack-3rd-party/boost-ut-xpack](https://github.com/xpack-3rd-party/boost-ut-xpack).
 
+Note: the v1.1.8-2 xPack release includes the upstream v1.1.8 release
+from 03 Aug 2020 and all new commits up to 01 Feb 2022.
+
 ## Maintainer info
 
 This page is addressed to developers who plan to include this package

@@ -14,4 +14,6 @@ and close existing issues and pull requests.
 
 ## 2022-02-23
 
+- create the `xpack` branch from the 01 Feb 2022 commit cd12498349362cc646a7140451bf51db2a2dac00, which is based on v1.1.8 from
+03 Aug 2020
 - fork from <https://github.com/boost-ext/ut.git>
