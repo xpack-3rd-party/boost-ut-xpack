@@ -1,6 +1,7 @@
+# -----------------------------------------------------------------------------
 #
 # This file is part of the µOS++ distribution.
-#   (https://github.com/micro-os-plus)
+#   (https://github.com/micro-os-plus/)
 # Copyright (c) 2022 Liviu Ionescu
 #
 # Permission to use, copy, modify, and/or distribute this software
@@ -13,15 +14,12 @@
 
 # This file is intended to be consumed by applications with:
 #
-# `subdir('xpacks/xpack-3rd-party-boost_ut')`
+# `subdir('xpacks/xpack-3rd-party-boost-ut')`
 #
 # The result is a library that can be refered as:
 #
 # ```
-#  c_args: xpack_3rd_party_boost_ut_dependency_c_args,
-#  cpp_args: xpack_3rd_party_boost_ut_dependency_cpp_args,
-#  dependencies: [ xpack-3rd-party-boost_ut_dependency ],
-#  link_with: [ xpack_3rd_party_boost_ut_static ],
+#  dependencies: [ xpack_3rd_party_xxx_yyy_dependency ],
 # ```
 
 # Note: the meson configuration is provided only as a proof of concept,
@@ -29,7 +27,7 @@
 
 # -----------------------------------------------------------------------------
 
-message('Processing xPack @xpack-3rd-party/boost_ut...')
+message('Processing xPack @xpack-3rd-party/boost-ut...')
 
 xpack_common_args = []
 xpack_c_args = []
