@@ -10,8 +10,8 @@ from 03 Aug 2020 and all new commits up to 01 Feb 2022.
 
 ## Maintainer info
 
-This page is addressed to developers who plan to include this package
-into their own projects.
+This page is addressed to developers who plan to include this source
+library into their own projects.
 
 For maintainer info, please see the
 [README-MAINTAINER-XPACK](README-MAINTAINER-XPACK.md) file.
