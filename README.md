@@ -40,6 +40,8 @@ cd my-project
 xpm init # Unless a package.json is already present
 
 xpm install @xpack-3rd-party/boost-ut@latest
+
+ls -l xpacks/xpack-3rd-party-boost-ut
 ```
 
 ### Git submodule
