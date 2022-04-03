@@ -100,4 +100,4 @@ When the release is considered stable, promote it as `latest`:
 
 - `npm dist-tag ls @xpack-3rd-party/boost-ut`
 - `npm dist-tag add @xpack-3rd-party/boost-ut@1.1.8-2 latest`
-- `npm dist-tag ls @@xpack-3rd-party/boost-ut`
+- `npm dist-tag ls @xpack-3rd-party/boost-ut`
