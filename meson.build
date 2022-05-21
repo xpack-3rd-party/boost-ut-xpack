@@ -16,7 +16,7 @@
 #
 # `subdir('xpacks/xpack-3rd-party-boost-ut')`
 #
-# The result is a library that can be refered as:
+# The result is a library that can be referred as:
 #
 # ```
 #  dependencies: [ xpack_3rd_party_xxx_yyy_dependency ],
