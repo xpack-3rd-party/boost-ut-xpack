@@ -95,17 +95,19 @@ on top of an Arm semihosting environment.
 
 #### Include folders
 
-The following folders should be used during the build:
+The following folders should be passed to the compiler during the build:
 
 - `include`
 
-The header files can then be included in user projects with statements like:
+The header files to be included in user projects are:
 
 ```c++
 #include "boost/up.hpp"
 ```
 
-#### Source folders
+#### Source files
+
+The source files to be added to the build are:
 
 - none
 
