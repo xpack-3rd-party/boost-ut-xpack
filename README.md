@@ -1,6 +1,6 @@
 # A source library xPack with Boost ut / μ(micro)/Unit Testing Framework
 
-This project provides the **Boost ut** source libraries as an xPack dependency.
+This project provides the **Boost ut** source library as an xPack dependency.
 
 The project is hosted on GitHub as
 [xpack-3rd-party/boost-ut-xpack](https://github.com/xpack-3rd-party/boost-ut-xpack).
@@ -18,7 +18,7 @@ For maintainer info, please see the
 
 ## Install
 
-As a source library xPacks, the easiest way to add it to a project is via
+As a source library xPack, the easiest way to add it to a project is via
 **xpm**, but it can also be used as any Git project, for example as a submodule.
 
 ### Prerequisites
@@ -136,8 +136,8 @@ The project includes many class templates; see the documentation for details.
 
 #### CMake
 
-To integrate the Google Test source library into a CMake application, add this
-folder to the build:
+To integrate the Google Test source library into a CMake application,
+add this folder to the build:
 
 ```cmake
 add_subdirectory("xpacks/xpack-3rd-party-boost-ut")`
@@ -155,8 +155,8 @@ target_link_libraries(your-target PRIVATE
 
 #### meson
 
-To integrate the Google Test source library into a meson application, add this
-folder to the build:
+To integrate the Google Test source library into a meson application,
+add this folder to the build:
 
 ```meson
 subdir('xpacks/xpack-3rd-party-boost-ut')
