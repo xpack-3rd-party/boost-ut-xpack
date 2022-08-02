@@ -1,3 +1,9 @@
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/xpack-3rd-party/boost-ut-xpack)](https://github.com/xpack-3rd-party/boost-ut-xpack/blob/xpack/package.json)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/xpack-3rd-party/boost-ut-xpack)](https://github.com/xpack-3rd-party/boost-ut-xpack/tags/)
+[![npm (scoped)](https://img.shields.io/npm/v/@xpack-3rd-party/boost-ut.svg?color=blue)](https://www.npmjs.com/package/@xpack-3rd-party/boost-ut/)
+[![license](https://img.shields.io/github/license/xpack-3rd-party/boost-ut-xpack)](https://github.com/xpack-3rd-party/architecture-aarch32-xpack/blob/xpack/LICENSE)
+[![CI on Push](https://github.com/xpack-3rd-party/boost-ut-xpack/actions/workflows/CI.yml/badge.svg)](https://github.com/xpack-3rd-party/boost-ut-xpack/actions/workflows/CI.yml)
+
 # A source library xPack with Boost ut / μ(micro)/Unit Testing Framework
 
 This project provides the **Boost ut** source library as an xPack dependency.
