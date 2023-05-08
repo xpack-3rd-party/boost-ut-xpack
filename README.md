@@ -232,10 +232,8 @@ platforms.
 The full set can be run manually with the following commands:
 
 ```sh
-cd ~Work/boost-ut-xpack.git
-
-xpm run install-all
-xpm run test-all
+xpm run install-all -C ~/Work/xpack-3rd-party/boost-ut-xpack.git
+xpm run test-all -C ~/Work/xpack-3rd-party/boost-ut-xpack.git
 ```
 
 ### Documentation

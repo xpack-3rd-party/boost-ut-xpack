@@ -96,10 +96,8 @@ related to the new version.
 To run the tests manually on the local machine:
 
 ```sh
-cd ~Work/boost-ut-xpack.git
-
-xpm run install-all
-xpm run test-all
+xpm run install-all -C ~/Work/xpack-3rd-party/boost-ut-xpack.git
+xpm run test-all  -C ~/Work/xpack-3rd-party/boost-ut-xpack.git
 ```
 
 ## Publish on the npmjs.com server
