@@ -14,3 +14,5 @@ CONTRIBUTING**
 README-MAINTAINER*.md
 
 *.tgz
+
+.gitkeep
