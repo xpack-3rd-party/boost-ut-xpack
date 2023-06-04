@@ -53,7 +53,7 @@ xpm init # Unless a package.json is already present
 
 xpm install @xpack-3rd-party/boost-ut@latest
 
-ls -l xpacks/xpack-3rd-party-boost-ut
+ls -l xpacks/@xpack-3rd-party/boost-ut
 ```
 
 ### Git submodule
@@ -67,7 +67,7 @@ git init # Unless already a Git project
 mkdir -p xpacks
 
 git submodule add https://github.com/xpack-3rd-party/boost-ut-xpack.git \
-  xpacks/xpack-3rd-party-boost-ut
+  xpacks/@xpack-3rd-party/boost-ut
 ```
 
 ## Branches
@@ -152,7 +152,7 @@ To integrate the Google Test source library into a CMake application,
 add this folder to the build:
 
 ```cmake
-add_subdirectory("xpacks/xpack-3rd-party-boost-ut")`
+add_subdirectory("xpacks/@xpack-3rd-party/boost-ut")`
 ```
 
 The result is a static library that can be added as an application
@@ -171,7 +171,7 @@ To integrate the Google Test source library into a meson application,
 add this folder to the build:
 
 ```meson
-subdir('xpacks/xpack-3rd-party-boost-ut')
+subdir('xpacks/@xpack-3rd-party/boost-ut')
 ```
 
 The result is a static library and a dependency object that can be added

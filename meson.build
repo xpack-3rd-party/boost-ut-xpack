@@ -14,7 +14,7 @@
 
 # This file is intended to be consumed by applications with:
 #
-# `subdir('xpacks/xpack-3rd-party-boost-ut')`
+# `subdir('xpacks/@xpack-3rd-party/boost-ut')`
 #
 # The result is a library that can be referred as:
 #
