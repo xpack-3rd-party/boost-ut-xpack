@@ -15,9 +15,9 @@
     "type": "git",
     "url": "https://github.com/xpack-3rd-party/boost-ut-xpack.git"
   },
-  "homepage": "https://github.com/xpack-3rd-party/boost-ut-xpack/",
+  "homepage": "https://github.com/xpack-3rd-party/boost-ut-xpack",
   "bugs": {
-    "url": "https://github.com/xpack-3rd-party/boost-ut-xpack/issues/"
+    "url": "https://github.com/xpack-3rd-party/boost-ut-xpack/issues"
   },
   "keywords": [
     "xpack",
@@ -29,12 +29,12 @@
   "author": {
     "name": "Liviu Ionescu",
     "email": "ilg@livius.net",
-    "url": "https://github.com/ilg-ul/"
+    "url": "https://github.com/ilg-ul"
   },
   "contributors": [
     {
       "name": "kris-jusiak",
-      "url": "https://boost-ext.github.io/ut/",
+      "url": "https://boost-ext.github.io/ut",
       "git": "https://github.com/boost-ext/ut.git",
       "license": "Boost Software License 1.0"
     }
