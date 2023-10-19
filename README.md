@@ -4,7 +4,7 @@
 [![license](https://img.shields.io/github/license/xpack-3rd-party/boost-ut-xpack)](https://github.com/xpack-3rd-party/architecture-aarch32-xpack/blob/xpack/LICENSE)
 [![CI on Push](https://github.com/xpack-3rd-party/boost-ut-xpack/actions/workflows/ci.yml/badge.svg)](https://github.com/xpack-3rd-party/boost-ut-xpack/actions/workflows/ci.yml)
 
-# A source library xPack with Boost ut / μ(micro)/Unit Testing Framework
+# A source code library with Boost ut / μ(micro)/Unit Testing Framework
 
 This project provides the **Boost ut** source library as an xPack dependency.
 
@@ -245,7 +245,7 @@ Tho original documentation is available on-line:
 ## License
 
 The xPack original content is released under the
-[MIT License](https://opensource.org/licenses/MIT/),
+[MIT License](https://opensource.org/licenses/mit/),
 with all rights reserved to
 [Liviu Ionescu](https://github.com/ilg-ul).
 
