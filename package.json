@@ -1,7 +1,7 @@
 {
   "name": "@xpack-3rd-party/boost-ut",
   "version": "1.1.8-2",
-  "description": "A source library xPack with the Boost C++20 μ(micro)/Unit Testing Framework",
+  "description": "A source code library with the Boost C++20 μ(micro)/Unit Testing Framework",
   "main": "",
   "scripts": {
     "npm-install": "npm install",
